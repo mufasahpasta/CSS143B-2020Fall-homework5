@@ -146,9 +146,9 @@ public class Problem3Test {
         //    N   N
         // homework
         // what problem can you see for insertInBst from this test case?
-        // answer:
+        // answer: You would have to have a conditional for if both sides are null
         // discuss how you would solve it in a comment below
-        // answer:
+        // answer: Add a conditional for both sides being null
         root = new TreeNode<>(1);
         testCases.add(new BSTTestCase<>(root, 2, Arrays.asList(1, 2)));
         testCases.add(new BSTTestCase<>(root, 3, Arrays.asList(1, 2, 3)));
